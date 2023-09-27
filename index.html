@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>vente</title>
+    <script src="index.js" defer></script>
+    <link rel="stylesheet" href="file.css" />
+  </head>
+  <body>
+    <form name="formulaire" class="formulaire">
+      <div id="text">
+        <h1>Elvaiste site de vente</h1>
+      </div>
+      <fieldset>
+        <legend>information personelle</legend>
+        <input type="text" placeholder="name" />
+        <input type="email" placeholder="E-mail" />
+        <input type="number" placeholder="pasword" />
+      </fieldset>
+
+      <fieldset>
+        <legend>qu'aimeriez vous acheter aujoud'huir</legend>
+        <select name="fruit" id="fruit">
+          <option value="" selected>selectionner un fruit</option>
+          <option value="orange">orange</option>
+          <option value="mango">mango</option>
+          <option value="pomme">pomme</option>
+        </select>
+      </fieldset>
+
+      <button onclick="addittioner()">addittion</button>
+      <button onclick="finaliser()">finaliser</button>
+    </form>
+  </body>
+</html>

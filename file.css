@@ -1,0 +1,65 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: whitesmoke;
+}
+
+.formulaire {
+  background-color: rgb(196, 196, 187);
+  width: 500px;
+  padding: 20px;
+  border-radius: 5px;
+  margin: auto;
+  margin-top: 50px;
+  box-shadow: 0px 1px 10px rgb(145, 141, 141);
+}
+.formulaire input,
+.formulaire select {
+  display: block;
+  padding: 10px 10px;
+  border: 1px solid;
+  margin-bottom: 10px;
+  width: 100%;
+  border-radius: 3px;
+}
+
+#text {
+  text-align: center;
+  color: rgb(41, 41, 240);
+}
+
+.p {
+  color: brown;
+  font-size: 20px;
+  font-weight: 38px;
+}
+
+.formulaire button {
+  display: block;
+  padding: 8px 25px;
+  border: none;
+  border-radius: 15px;
+  background-color: rgb(28, 28, 233);
+  color: #fff;
+  margin: auto;
+  margin-top: 20px;
+  cursor: pointer;
+}
+
+fieldset {
+  border: 1px solid black;
+  padding: 20px 10px;
+  border-radius: 3px;
+  margin-top: 10px;
+}
+
+legend {
+  background-color: rgb(28, 28, 252);
+  border-radius: 12px;
+  margin: auto;
+  padding: 5px 20px;
+}
